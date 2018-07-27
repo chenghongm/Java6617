@@ -1,0 +1,11 @@
+
+	***Payroll Report***
+
+  Pay  	  EmployeeID   	EmployeeName
+
+---------------------------------------
+4166.67   	0        	chenghong meng
+
+2496.00   	2        	clair smith
+
+5000.00   	3        	elvin wang

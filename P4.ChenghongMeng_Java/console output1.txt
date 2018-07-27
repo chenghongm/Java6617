@@ -1,0 +1,43 @@
+// console_run 1_output
+
+P4: An Employee Database
+ Author: Chenghong Meng
+
+File not Found!
+
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 2
+Welcom,Boss! Now add your emploees: 
+
+Please create your employee's login name(no space allowed): 
+
+c1
+Please enter your employee's real name( with space): 
+
+ch m
+Please enter her/his salary: 
+
+1
+[00000	c1	1.0	Fri Feb 23 19:48:13 EST 2018	ch m	]
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 0
+Thanks!
+

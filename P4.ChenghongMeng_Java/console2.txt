@@ -1,0 +1,119 @@
+//console_run 2_output
+
+
+P4: An Employee Database
+ Author: Chenghong Meng
+
+00000	c1	1.0	Fri Feb 23 19:35:18 EST 2018		ch m		
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 2
+Please enter your employeeID: 
+00000
+Welcom,Boss! Now add your emploees: 
+
+Please create your employee's login name(no space allowed): 
+
+q2
+Please enter your employee's real name( with space): 
+
+qh w
+Please enter her/his salary: 
+
+2
+[00000	c1	1.0	Fri Feb 23 19:35:18 EST 2018		ch m		, 00001	q2	2.0	Fri Feb 23 19:35:44 EST 2018	qh w	]
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 2
+Please enter your employeeID: 
+00000
+Welcom,Boss! Now add your emploees: 
+
+Please create your employee's login name(no space allowed): 
+
+cl3
+Please enter your employee's real name( with space): 
+
+cl w
+Please enter her/his salary: 
+
+3
+[00000	c1	1.0	Fri Feb 23 19:35:18 EST 2018		ch m		, 00001	q2	2.0	Fri Feb 23 19:35:44 EST 2018	qh w	, 00002	cl3	3.0	Fri Feb 23 19:36:55 EST 2018	cl w	]
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 2
+Please enter your employeeID: 
+00000
+Welcom,Boss! Now add your emploees: 
+
+Please create your employee's login name(no space allowed): 
+
+e4
+Please enter your employee's real name( with space): 
+
+e w
+Please enter her/his salary: 
+
+4
+[00000	c1	1.0	Fri Feb 23 19:35:18 EST 2018		ch m		, 00001	q2	2.0	Fri Feb 23 19:35:44 EST 2018	qh w	, 00002	cl3	3.0	Fri Feb 23 19:36:55 EST 2018	cl w	, 00003	e4	4.0	Fri Feb 23 19:37:14 EST 2018	e w	]
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 2
+Please enter your employeeID: 
+00000
+Welcom,Boss! Now add your emploees: 
+
+Please create your employee's login name(no space allowed): 
+
+g5
+Please enter your employee's real name( with space): 
+
+g l
+Please enter her/his salary: 
+
+5
+[00000	c1	1.0	Fri Feb 23 19:35:18 EST 2018		ch m		, 00001	q2	2.0	Fri Feb 23 19:35:44 EST 2018	qh w	, 00002	cl3	3.0	Fri Feb 23 19:36:55 EST 2018	cl w	, 00003	e4	4.0	Fri Feb 23 19:37:14 EST 2018	e w	, 00004	g5	5.0	Fri Feb 23 19:37:40 EST 2018	g l	]
+
+
+****Payroll Menu*****	
+1.Log In	
+2.Enter employee	
+3.List Employees	
+4.Terminate an employee	
+5.Pay employee	
+0.Exit system	
+-------------
+Please enter your choice: 0
+Thanks!

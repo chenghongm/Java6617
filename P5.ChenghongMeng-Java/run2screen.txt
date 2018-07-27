@@ -1,0 +1,101 @@
+P5: Payroll
+ Author: Chenghong Meng
+
+00000  mch1  100000.0  Tue Apr 03 16:40:05 EDT 2018  chenghong meng  
+00002  clw3  80000.0  Tue Apr 03 16:40:05 EDT 2018  clair smith  
+00003  elw4  120000.0  Tue Apr 03 16:40:05 EDT 2018  elvin wang  
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 1
+Please enter your loginName: 
+
+mch1
+Welcome, Boss! Your record found as following : 
+
+00000  mch1  100000.0  Tue Apr 03 16:40:05 EDT 2018  chenghong meng  
+Please do other choice!
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 3
+**Employee list**
+00000  mch1  100000.0  Tue Apr 03 16:40:05 EDT 2018  chenghong meng  
+00002  clw3  80000.0  Tue Apr 03 16:40:05 EDT 2018  clair smith  
+00003  elw4  120000.0  Tue Apr 03 16:40:05 EDT 2018  elvin wang  
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 6
+
+chenghong meng 
+Tue Apr 03 16:42:56 EDT 2018,  was payied $4166.67
+
+clair smith 
+The number of hours worked is : 104
+Tue Apr 03 16:42:56 EDT 2018, was payied $2496.0
+
+elvin wang 
+Tue Apr 03 16:42:56 EDT 2018,  was payied $5000.00
+
+	***Payroll Report***
+
+  Pay  	  EmployeeID  	EmployeeName
+
+---------------------------------------
+4166.67   	0      	chenghong meng
+
+2496.00   	2      	clair smith
+
+5000.00   	3      	elvin wang
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 0
+Thanks! Boss!
+**Employee list**
+3
+00000  mch1  100000.0  Tue Apr 03 16:42:56 EDT 2018  chenghong meng  
+00002  clw3  80000.0  Tue Apr 03 16:42:56 EDT 2018  clair smith  
+00003  elw4  120000.0  Tue Apr 03 16:42:56 EDT 2018  elvin wang  
+
+**Quited Employee list**
+2
+00001  wqh2  120000.0  Tue Apr 03 16:33:48 EDT 2018  quistin wang  
+00004  gra5  50000.0  Tue Apr 03 16:40:05 EDT 2018  gra ma  

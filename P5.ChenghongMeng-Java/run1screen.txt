@@ -1,0 +1,102 @@
+P5: Payroll
+ Author: Chenghong Meng
+
+File not Found!
+Please create your employee's login name(no space allowed): 
+
+mch1
+Please enter your employee's real name( with space): 
+
+chenghong meng
+Please enter her/his salary: 
+
+100000
+chenghong meng, your record was created: 
+
+[00000  mch1  100000.0  Tue Apr 03 16:33:27 EDT 2018  chenghong meng  ]
+
+
+Now you are the Boss!Please log in!
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 1
+Please enter your loginName: 
+
+mch1
+Welcome, Boss! Your record found as following : 
+
+00000  mch1  100000.0  Tue Apr 03 16:33:27 EDT 2018  chenghong meng  
+Please do other choice!
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 2
+Now add your emploees: 
+
+Please create your employee's login name(no space allowed): 
+
+wqh2
+Please enter your employee's real name( with space): 
+
+quistin wang
+Please enter her/his salary: 
+
+120000
+Hourly pay Or Salaried pay? h/s
+s
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 3
+**Employee list**
+00000  mch1  100000.0  Tue Apr 03 16:33:27 EDT 2018  chenghong meng  
+00001  wqh2  120000.0  Tue Apr 03 16:33:48 EDT 2018  quistin wang  
+
+
+***Payroll Menu***
+---------------------	
+1.Log In	
+2.Enter employees	
+3.List employees	
+4.Change employees	
+5.Terminate employees	
+6.Pay employees	
+0.Exit system	
+--------------------- 
+Please enter your choice: 0
+Thanks! Boss!
+**Employee list**
+2
+00000  mch1  100000.0  Tue Apr 03 16:33:27 EDT 2018  chenghong meng  
+00001  wqh2  120000.0  Tue Apr 03 16:33:48 EDT 2018  quistin wang  
+
+**Quited Employee list**
+Empty list!
