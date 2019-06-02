@@ -30,42 +30,35 @@ public abstract class EmployeeG implements Serializable
      public void setLoginName(String lN) {
     	 loginName = lN;
      }
-     public String getEmployeeName()
-     {
+     public String getEmployeeName() {
     	 return employeeName;
      }
-     public void setPassword(byte[] bs)
-     {
+     public void setPassword(byte[] bs) {
     	 password = bs;
      }
-     public byte[] getPassword()
-     {
+     public byte[] getPassword() {
     	 return password;
      }
-     public double getSalary()
-     {
+     public double getSalary() {
     	 return salary;
      }
      
-     public void seEmployeeSalary(double s)
-     {
+     public void seEmployeeSalary(double s) {
     	 this.salary = s;
      }
      
-     public void setEmployeeName(String eName)
-     {
+     public void setEmployeeName(String eName) {
     	 this.employeeName = eName;
      }
    
-    public int getEmployeeID()
-     {   
+    public int getEmployeeID() {   
     	 return employeeID;
      }
     
     public abstract double getPay();
-    
-     EmployeeG(String lN,double s,String eName)
-     {   byte[] passw = { 0};
+    //parent class constructor1
+     EmployeeG(String lN,double s,String eName)  {
+    	 byte[] passw = { 0};
     	 password = passw;
     	 loginName = lN;
     	 salary = s;
@@ -74,8 +67,9 @@ public abstract class EmployeeG implements Serializable
     	 employeeID=count ;
     	 count++;
      }
-    EmployeeG(EmployeeG pNew)
-     { password = pNew.password;
+     //parent class constructor2
+    EmployeeG(EmployeeG pNew)  { 
+      password = pNew.password;
       loginName = pNew.loginName;
       salary =pNew.salary;
       date = pNew.date;
@@ -83,23 +77,20 @@ public abstract class EmployeeG implements Serializable
 	  employeeID =pNew.employeeID ;
 	  count++;
 	 }
-    
-public static class Hourly extends EmployeeG
-{
+    // child class
+public static class Hourly extends EmployeeG {
 
 	private static final long serialVersionUID = 1L;
 	private static final int payRateOfhour = 24;
 
-	Hourly(String lN, double s, String eName) 
-	{
+	Hourly(String lN, double s, String eName) {
 		super(lN, s, eName);
 		// TODO Auto-generated constructor stub
 	}
 	Hourly(EmployeeG p){
 		super(p);
 	}
-	public void setPay()
-  {
+	public void setPay() {
 		int hoursOfworked; 
 		Random rand = new Random();
 		hoursOfworked = rand.nextInt(10)+96;
@@ -111,20 +102,19 @@ public static class Hourly extends EmployeeG
     System.out.println(date + ", was payied $" + pay);
 	
   }
-   public double getPay()
-{     
+   public double getPay() {     
      return pay;	
 	
 }
 }
-public static class Salaried extends EmployeeG
-{
+//child class 
+public static class Salaried extends EmployeeG { 
+
 
 	private static final long serialVersionUID = 1L;
 	
 
-	Salaried(String lN, double s, String eName)
-	{
+	Salaried(String lN, double s, String eName)	{
 		super(lN, s, eName);
 		
 		// TODO Auto-generated constructor stub
@@ -135,23 +125,20 @@ public static class Salaried extends EmployeeG
 		
 	}
 	
-	public void setPay()
-	{
+	public void setPay() {
       date = new Date();
       DecimalFormat dec = new DecimalFormat("#0.00");
 		 pay = salary/24;
 		System.out.println(date + ",  was payied $" + dec.format(pay));
 	}
 	
-	public double getPay()
-	{   
+	public double getPay()	{   
 	  return pay;
 		
 	}
 	
 }   
-public String toString()
-{       
+public String toString() {       
     	// System.out.println(loginName +" "+ salary +" "+ employeeName +" ");
     	String ID = String.format("%05d",employeeID);
     	 return  ID+"  "+ loginName +"  "+salary +"  "+date+"  "+employeeName+"  ";

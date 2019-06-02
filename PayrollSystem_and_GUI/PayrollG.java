@@ -646,7 +646,7 @@ public class PayrollG extends Application
 				
 				eName = reNamef.getText(); 		
 				 		
-			    salarys = Double.parseDouble(salaryf.getText());
+			    salarys = Double.parseDouble(salaryf.getText());//convert double data type into string
 			    
 			
 				EmployeeG pSalaried= new Salaried(lName,salarys,eName);
